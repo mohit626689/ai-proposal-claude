@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Generated proposals (anchored to repo root so source files like
+# agents/proposal-*.md and skills/proposal-*/ are never ignored)
+/PROPOSAL-*.md
+/PROPOSAL-*.pdf
+*-sample.pdf
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
+.cache/
